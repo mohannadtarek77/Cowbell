@@ -1,0 +1,25 @@
+{
+      "url": "/login",
+      "username": {
+        "selector": "#username",
+        "validName": "tomsmith",
+        "invalidName":"Mohanad",
+        "invalidEmail":"mohanadtarek@hotmail.com",
+        "email":"moha@hotmail.com"
+      },
+      "password": {
+        "selector": "#password",
+        "passwordValue": "SuperSecretPassword!",
+        "invalidPassword":"Moha_123"
+      },
+      "loginButton": ".fa",
+      "invalidPasswordValidation":"Your password is invalid!",
+      "invalidCredentialsValidation":" Your username is invalid!",
+      "validCredentialsValidation":" You logged into a secure area!",
+      "expectedValidValidation":"for the User to view :You logged into a secure area!",
+      "expectedInValidValidation":"for the User to view :Your username is invalid!",
+      "expectedInValidPasswordValidation":"for the User to view :Your password is invalid"
+    }  
+  
+  
+  

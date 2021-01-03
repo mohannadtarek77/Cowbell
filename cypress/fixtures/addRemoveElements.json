@@ -1,0 +1,12 @@
+{
+    "url": "/add_remove_elements/",
+    "addElement":{
+        "selector":"button",
+        "text":"Add Element"
+       },
+    "deleteElementButton":"#elements",
+    "firstElement":"#elements> button:nth-child(1)",
+    "secondElement":"#elements> button:nth-child(2)",
+    "thirdElement":"#elements> button:nth-child(3)"
+
+}

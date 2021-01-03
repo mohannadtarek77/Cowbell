@@ -1,0 +1,24 @@
+{
+    "url": "/dynamic_controls",
+    "removeAddBtn": {
+        "selector": "#checkbox-example > button"
+    },
+    "checkbox": {
+        "selector": "#checkbox",
+        "addedCheckboxValidation":"It's back",
+        "removedCheckboxValidation":"It's gone!",
+        "expectedAddedCheckBox":"for the User to see :It's back!",
+        "expectedRemovedCheckBox":"for the User to see :It's gone!"
+        },
+    "textField": {
+        "selector": "#input-example > input",
+        "disabledFieldValidation":"It's disabled!",
+        "enabledFieldValidation":"It's enabled!",
+        "expectedDisabledField":"for the User to see:It's disabled!",
+        "expectedEnabledField":"for the User to see :It's enabled!"
+    },
+    "enableBtn": {
+        "selector": "#input-example > button"
+    }
+    
+}
